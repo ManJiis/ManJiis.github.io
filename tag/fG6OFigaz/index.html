@@ -1,0 +1,349 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>随便记录记录</title>
+<link rel="shortcut icon" href="https://wulilinghan.github.io/favicon.ico">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
+<link rel="stylesheet" href="https://wulilinghan.github.io/media/css/tailwind.css">
+<link rel="stylesheet" href="https://wulilinghan.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="随便记录记录 - Atom Feed" href="https://wulilinghan.github.io/atom.xml">
+
+    
+
+  <meta name="description" content="😼欢迎~" />
+</head>
+<body>
+  <div class="antialiased flex flex-col min-h-screen" id="app">
+
+    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
+  <div class="flex justify-end px-4">
+    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
+      <i class="ri-close-line" v-show="showMenu"></i>
+      <i class="ri-menu-3-line" v-show="!showMenu"></i>
+    </div>
+  </div>
+  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
+    
+      <a href="/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        首页
+      </a>
+    
+      <a href="/archives" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        归档
+      </a>
+    
+      <a href="/tags" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        标签
+      </a>
+    
+      <a href="/post/about-me" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        关于我
+      </a>
+    
+      <a href="/post/my-frequently-used-software" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        我的常用软件
+      </a>
+    
+    <a href="https://wulilinghan.github.io/atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+      RSS
+    </a>
+  </nav>
+</div>
+
+    <div class="max-w-4xl w-full mx-auto pt-32">
+      <h1 class="text-2xl font-bold pb-8 flex justify-center items-center">
+        <i class="ri-hashtag"></i>
+        Linux
+      </h1>
+      <div class="shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
+        
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://wulilinghan.github.io/post/linux-user-manager/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          Linux - 用户管理
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-04-22</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        
+
+
+一： 创建用户
+二： 用户口令(设置密码)
+三：修改帐号
+四：删除帐号
+
+
+
+
+一： 创建用户
+useradd [options] [username]
+
+参数说明：
+[options]选项:
+
+-c comment 指定一段注释性描...
+      </div>
+      <a href="https://wulilinghan.github.io/post/linux-user-manager/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://wulilinghan.github.io/post/commonly-used-commands/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          Linux - 常用命令
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-04-12</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        操作系统: CentOS 7.6
+
+
+
+
+
+基本命令
+切换用户
+文件/目录权限设置
+查看当前目录下各文件夹占用空间大小
+查看 Linux 内核版本以及系统位数（备注：x86_64 表示 64 位系统， i686 i386 表示 32 位系统...
+      </div>
+      <a href="https://wulilinghan.github.io/post/commonly-used-commands/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://wulilinghan.github.io/post/centos-speedtest/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          Linux - 命令行测试网速/带宽
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-04-03</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        
+安装speedtest-cli
+使用speedtest-cli测试网速
+
+
+操作系统:：CentOS 7.6 64bit
+安装speedtest-cli
+speedtest-cli是一个用Python编写的轻量级Linux命令行工具，在P...
+      </div>
+      <a href="https://wulilinghan.github.io/post/centos-speedtest/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://wulilinghan.github.io/post/changeSSHPort/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          Linux - 修改SSH默认连接端口
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-03-20</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        操作系统: CentOS 7.6
+vim /etc/ssh/sshd_config
+[root@localhost ~]# vim /etc/ssh/sshd_config
+#       $OpenBSD: sshd_config,v 1...
+      </div>
+      <a href="https://wulilinghan.github.io/post/changeSSHPort/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://wulilinghan.github.io/post/linux-install-rabbitmq/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          Linux - 安装RabbitMQ
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-03-19</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        官方页面: https://www.rabbitmq.com/download.html
+不同版本rabbitmq版本支持的erlang版本不同, 点击查看对照表
+安装版本:
+
+rabbitmq-server-generic-unix-3....
+      </div>
+      <a href="https://wulilinghan.github.io/post/linux-install-rabbitmq/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://wulilinghan.github.io/post/linux-environment-variable/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          Linux - 普通用户环境变量不生效问题
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-03-18</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        有时候在/etc/profile配置完jdk环境，发现root用户可以使用java -version生效，而普通用户会提示java命令未找到。
+环境变量配置文件大致有/etc/profile，/etc/bashrc，~/.bash_prof...
+      </div>
+      <a href="https://wulilinghan.github.io/post/linux-environment-variable/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://wulilinghan.github.io/post/modify-SSHAndSFTP-ConnectTimeout/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          Linux - 修改ssh登录和sftp连接超时问题
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-03-04</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        
+
+
+
+
+1. 修改 sshd_config 配置文件
+2. 重启sshd服务
+
+
+
+
+
+
+操作系统：CentOS 7.6 64bit
+sftp客户端工具连接sftp服务器时，闲置一段时间后，就会跟服务器断开，重新连接。响应速度相比重新建立...
+      </div>
+      <a href="https://wulilinghan.github.io/post/modify-SSHAndSFTP-ConnectTimeout/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://wulilinghan.github.io/post/linux-install-nginx/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          Linux - 安装Nginx
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-02-06</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        
+操作系统：CentOS 7.6 64bit
+安装环境
+yum -y install gcc pcre-devel zlib-devel openssl openssl-devel
+nginx下载地址：https://nginx.org/d...
+      </div>
+      <a href="https://wulilinghan.github.io/post/linux-install-nginx/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://wulilinghan.github.io/post/linux-install-mysql80/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          Linux - 安装MySQL8.0
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-02-04</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        
+MySQL8.0下载
+
+安装MySQL
+
+# 解压
+tar -xvf mysql-8.0.23-linux-glibc2.12-x86_64.tar.xz
+# 重命名文件夹
+mv mysql-8.0.23-linux-glibc2.12-...
+      </div>
+      <a href="https://wulilinghan.github.io/post/linux-install-mysql80/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://wulilinghan.github.io/post/linux-uninstall-openjdk/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          Linux - 卸载Linux自带OpenJDK
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-02-04</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        #1.查看java版本是否是openjdk
+java -version 
+
+#2.使用rpm -qa命令查看安装了多少java软件包
+rpm -qa | grep java
+
+#3.把所有带openjdk的程序包卸载了：rpm -e --n...
+      </div>
+      <a href="https://wulilinghan.github.io/post/linux-uninstall-openjdk/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+  
+      </div>
+
+      
+  <div class="my-4 flex justify-between px-4 md:px-0">
+    
+    
+      <a href="https://wulilinghan.github.io/tag/fG6OFigaz/page/2" class="btn btn-white">
+        下一页
+        <i class="ri-arrow-right-line ml-4"></i>
+      </a>
+    
+  </div>
+
+      <footer class="py-12 text-center px-4 md:px-0" v-pre>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank" >Gridea</a> · Made with ❤️ by <a href="https://github.com/wulilinghan" target="_blank" >wulilinghan</a>
+</footer>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://wulilinghan.github.io/media/scripts/main.js"></script>
+</body>
+</html>
